@@ -33,3 +33,27 @@ const myFunction = function() {
 }
 
 console.log(typeof myFunction);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myGithubid = "Raginikochale.com"
+
+let anotherid = myGithubid
+anotherid = "Rani.com"
+
+console.log(myGithubid);
+console.log(anotherid);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rani@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
